@@ -19,7 +19,13 @@ function Routes() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Box flex="1">
+      <Box 
+        flex="1"
+        py={{ base: '30px', md: '80px' }}
+        px={{ base: '8px', md: '31px' }}
+        overflow="auto"
+        h={{ base: 'auto', md: '100vh' }}
+      >
         <Switch>
           <Suspense fallback={<div />}>
             {renderRoutes.map(([key, value]) => (
