@@ -1,0 +1,24 @@
+.nav-icons {
+  margin: 0 !important;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.nav-icons:hover {
+  border-color: rgba(160, 134, 212, 1);
+}
+.nav-icons svg,
+.nav-icons path {
+  fill: rgba(47, 62, 77, 0.2);
+  transition: all 0.3s ease;
+}
+.nav-icons:hover svg,
+.nav-icons:hover path {
+  fill: rgba(77, 48, 136, 1);
+}
+
+@media screen and (min-width: 48em) {
+  .nav-icons {
+    border-bottom: 0;
+    border-right: 2px solid transparent;
+  }
+}
