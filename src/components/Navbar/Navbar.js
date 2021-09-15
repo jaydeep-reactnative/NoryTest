@@ -3,7 +3,7 @@ import { Link as RLink } from 'react-router-dom';
 import CalenderIcon from '../../assets/icons/CalenderIcon';
 import HomeIcon from '../../assets/icons/HomeIcon';
 import SettingIcon from '../../assets/icons/SettingIcon';
-import Logo from './Logo3x.png';
+import Nory from '../../assets/icons/Nory.png';
 import './Navbar.css';
 
 export default function Navbar() {
@@ -22,7 +22,7 @@ export default function Navbar() {
         py="18px"
         px={{ base: '15px', md: '0' }}
       >
-        <Image d="block" boxSize="30px" src={Logo} alt="logo" />
+        <Image d="block" boxSize="30px" src={Nory} alt="logo" />
       </Box>
       <Box
         d="flex"
